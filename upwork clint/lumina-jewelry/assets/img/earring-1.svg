@@ -1,0 +1,30 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000" role="img" aria-label="Gold drop earrings on champagne backdrop">
+  <title>Gold drop earrings on champagne backdrop</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#faf7f1"/>
+      <stop offset="1" stop-color="#ece3d2"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".42" r=".62">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <!-- userSpaceOnUse so that straight strokes (zero-area bounding box)
+         are still painted; objectBoundingBox would drop them entirely. -->
+    <linearGradient id="gold" gradientUnits="userSpaceOnUse" x1="140" y1="120" x2="660" y2="680">
+      <stop offset="0" stop-color="#e2caa0"/>
+      <stop offset=".45" stop-color="#b8934a"/>
+      <stop offset="1" stop-color="#8a6a2f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1000" fill="url(#bg)"/>
+  <rect width="1000" height="1000" fill="url(#glow)"/>
+  <g transform="translate(0 0) scale(1.25)" fill="none" stroke="url(#gold)" stroke-width="6.4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="286" cy="272" r="30"/>
+    <path d="M286 302 C338 372 344 436 286 520 C228 436 234 372 286 302 Z"/>
+    <path d="M286 332 V490" stroke-opacity=".38"/>
+    <circle cx="514" cy="272" r="30"/>
+    <path d="M514 302 C566 372 572 436 514 520 C456 436 462 372 514 302 Z"/>
+    <path d="M514 332 V490" stroke-opacity=".38"/>
+  </g>
+</svg>

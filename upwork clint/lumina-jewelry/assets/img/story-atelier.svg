@@ -1,0 +1,28 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1250" width="1000" height="1250" role="img" aria-label="Inside the Lumina atelier">
+  <title>Inside the Lumina atelier</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f2e9"/>
+      <stop offset="1" stop-color="#e8ddc9"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".42" r=".62">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <!-- userSpaceOnUse so that straight strokes (zero-area bounding box)
+         are still painted; objectBoundingBox would drop them entirely. -->
+    <linearGradient id="gold" gradientUnits="userSpaceOnUse" x1="140" y1="120" x2="660" y2="680">
+      <stop offset="0" stop-color="#e2caa0"/>
+      <stop offset=".45" stop-color="#b8934a"/>
+      <stop offset="1" stop-color="#8a6a2f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1250" fill="url(#bg)"/>
+  <rect width="1000" height="1250" fill="url(#glow)"/>
+  <g transform="translate(-25 100) scale(1.3125)" fill="none" stroke="url(#gold)" stroke-width="5.33" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="400" cy="400" r="212" stroke-opacity=".45"/>
+    <circle cx="400" cy="400" r="182" stroke-opacity=".25"/>
+    <path d="M330 318 v164 h140"/>
+    <path d="M400 188 L432 268 L400 348 L368 268 Z" stroke-opacity=".7"/>
+  </g>
+</svg>
